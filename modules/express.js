@@ -4,7 +4,7 @@ const app = express();
 
 app.get("/home", (req, res) => {
   res.contentType("application/html");
-  res.status(200).send("<h1>Hello world!</h1>");
+  res.status(200).send("<h1>Hello mundo!</h1>");
 });
 
 app.get("/users", (req, res) => {

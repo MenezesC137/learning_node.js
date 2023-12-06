@@ -1,0 +1,3 @@
+-- AlterTable
+ALTER TABLE "movies" ALTER COLUMN "duration" SET DATA TYPE TEXT,
+ALTER COLUMN "release_date" SET DATA TYPE TEXT;

@@ -21,6 +21,8 @@ model User {
 model Movie {
   id         Int      @id @default(autoincrement())
   title      String
+  duration   String
+  release_date    String
   created_at DateTime @default(now())
   updated_at DateTime @updatedAt
   movie_rent MovieRent[] @relation("movie")
